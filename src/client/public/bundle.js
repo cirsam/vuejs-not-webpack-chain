@@ -3073,7 +3073,7 @@ function renderComponentRoot(instance) {
         if ((process.env.NODE_ENV !== 'production') &&
             result.patchFlag > 0 &&
             result.patchFlag & 2048 /* DEV_ROOT_FRAGMENT */) {
-            ;
+            
             [root, setRoot] = getChildRoot(result);
         }
         if (fallthroughAttrs && inheritAttrs !== false) {
